@@ -1,0 +1,32 @@
+.button {
+    /* width: 280px;
+    height: 69px; */
+  cursor: pointer;
+  text-decoration: none;
+  font-family: 'Roboto', sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.1em;
+  text-shadow: 1px 1px #00000033;
+  color: #F5F5F5;
+
+  background: #EE5508;
+  box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.14);    
+  border-radius: 4px;
+  border: none;
+
+  filter: drop-shadow(0px 10px 10px rgba(0, 0, 0, 0.14)) drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+  transition: 0.3s ease;
+}
+
+.button:hover {
+  filter: brightness(0.9);
+}
+
+.outline {
+  background: transparent; 
+  border: 1px solid #FD6925;
+  box-sizing: border-box;
+}

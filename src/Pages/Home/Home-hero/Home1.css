@@ -1,0 +1,96 @@
+.section-hero {
+    background-image: linear-gradient(black, black), url('../../../Components/imagens/fundo.png');
+    background-size: cover;
+    background-position: center center;
+    background-blend-mode: saturation;
+}
+
+.container-hero {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2.5rem;
+   
+    max-width: 1280px;
+    padding: 0 1.25rem;
+    margin: 0 auto;
+}
+
+.hero-text {
+    padding: 12rem 0;
+    flex: 6 1 360px;
+}
+
+.hero-text h1 {
+    color: #F5F5F5;
+
+    font-family: 'Montserrat', sans-serif;
+    font-size: 4.25rem;
+    line-height: 5.188rem;
+}
+
+.hero-text p {
+    margin: 1.25rem 0;
+    max-width: 464.27px;
+    
+    font-family: "Montserrat", sans-serif;
+    font-size: 1.5rem !important;
+    line-height: 29px;
+    
+    color: #F5F5F5;
+}
+
+.hero-text button {
+    margin-top: 0.5rem;
+}
+
+.img-girl {
+    margin-top: auto;
+    flex: 1 1 360px;
+}
+
+.img-girl img {
+    max-width: 380px;
+    transform: translateY(5px);
+    width: 100%;
+}
+
+@media (max-width: 940px) {
+    .container-hero { 
+        flex-direction: column;
+        gap: 1rem;
+    }
+    .hero-text {
+        padding: 4.5rem 0;
+    }
+}
+
+@media (max-width: 520px){
+    .img-girl img {
+        max-width: 280px;
+    }
+    .hero-text {
+        padding: 3.5rem 0;
+    }
+    .hero-text h1{
+        font-size: 4rem;
+        line-height: 4.188rem;
+    }
+}
+
+
+@media (max-width: 480px){
+    .hero-text p {
+        font-size: 0.4rem;
+    }
+    .hero-text h1{
+        font-size: 3rem;
+    }
+}
+
+@media (max-width: 960px) {
+    #elements-home  {
+        flex-direction: column;
+    }
+}
+
