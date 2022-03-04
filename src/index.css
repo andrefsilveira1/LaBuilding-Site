@@ -3,11 +3,36 @@
 --cinza: #151515;
 --branco:#FAFAFA;
 --neon:  #ee5508;
+--cinza-claro:#E9E9E9;
 --fontes: 'Roboto', Arial, Helvetica, sans-serif;
 }
 
+/* Scrollbar */
+
+/* Works on Firefox */
+* {
+  scrollbar-width: thin;
+  scrollbar-color: var(--neon) var(--fundo);
+}
+
+/* Works on Chrome, Edge, and Safari */
+*::-webkit-scrollbar {
+  width: 12px;
+}
+
+*::-webkit-scrollbar-track {
+  background: var(--fundo);
+}
+
+*::-webkit-scrollbar-thumb {
+  background-color: var(--neon);
+  border-radius: 20px;
+  border: 3px solid var(--fundo)
+}
+/* end of Scrollbar */
 
 body {
+  overflow-x: hidden;
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',

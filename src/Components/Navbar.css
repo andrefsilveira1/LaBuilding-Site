@@ -6,7 +6,8 @@ width: 100vw;
 background-color: var(--fundo);
 font-family: var(--fontes);
 position:sticky;
-
+/* esse z-index alto é para garantir que a navbar vai estar acima dos outros itens */
+z-index: 10;
 }
 
 .navbar{
@@ -49,6 +50,8 @@ font-weight: bold;
 
 .newsletter a:hover{
 background-color: var(--branco);
+text-shadow: 1px 1px #00000033;
+
 }
 
 .botaonavbar{
@@ -107,6 +110,7 @@ padding: 0.5em;
 background-color: var(--cinza);
 text-align: center;
 width: 100vw;
+justify-content: center;
 }
 
 .botaonavbar{

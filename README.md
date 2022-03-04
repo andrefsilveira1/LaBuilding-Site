@@ -17,3 +17,36 @@ Apenas relembrando, busque utilizar as unidades de medida **vh** e **vw**, isso 
 ### **React-Router-DOM**
 
 Quem for fazer as rotas para outras páginas, talvez será necessário instalar o pacote de rotas do react, o **React-Router-DOM**. Quando fizerem essa implementação, todos desenvolvedores terão que instalar esse pacote no projeto. Do contrário, a inicialização irá dar um erro.
+
+
+### Libs usadas
+- Material ui
+
+``` 
+// usando npm
+npm install @material-ui/core @material-ui/icons
+
+// usando yarn
+yarn add @material-ui/core @material-ui/icons 
+```
+- Formik
+
+``` 
+// usando npm
+npm install formik
+
+// usando yarn
+yarn add formik 
+```
+
+- Yup
+// usando npm
+npm install yup
+
+// usando yarn
+yarn add yup 
+```
+
+
+
+

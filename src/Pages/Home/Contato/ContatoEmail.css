@@ -1,0 +1,98 @@
+.caixa-contato{
+display: flex;
+background-color: var(--fundo);
+
+}
+
+.caixa-form{
+width: 650px;
+background-color: var(--cinza);
+border-radius: 15px;
+margin: 1em auto;
+
+}
+
+.form-contato{
+display: flex;
+flex-direction: column;
+font-family: var(--fontes);
+margin:60px;
+}
+
+.label-contato{
+display:flex;
+color: var(--branco);
+font-size: 20px;
+margin-bottom:10px;
+font-weight: bold;
+}
+
+.input-contato{
+border: 1px solid var(--neon);
+background-color: var(--cinza);
+border-radius: 5px;
+height:40px;
+font-size: 1em;
+color: var(--cinza-claro);
+text-indent: 0.5em;
+font-family: var(--fontes);
+
+/* para assegurar que no autofill não muda background ou fonte */
+-webkit-box-shadow: 0 0 0 30px var(--cinza) inset;
+-webkit-text-fill-color: var(--branco);
+}
+
+
+.input-contato::placeholder{
+color: var(--cinza-claro);
+font-family: var(--fontes);
+text-indent: 0.5em;
+}
+
+textarea.input-contato{
+resize: none;
+height:10em;
+color: var(--cinza-claro);
+font-family: var(--fontes);
+font-size: 1em;
+text-indent: 0.5em;
+}
+
+.botao-enviar{
+width:fit-content;
+font-family: var(--fontes);
+font-weight: bold;
+font-size: 1em;
+padding: 1em 2em;
+color: var(--branco);
+background-color: var(--neon);
+border: none;
+border-radius: 5px;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.14);
+text-shadow: 1px 1px #00000033;
+}
+
+.botao-enviar:hover{
+background-color: var(--branco);
+text-shadow: 1px 1px #00000033;
+color: var(--neon);
+
+}
+
+
+.error{
+color: var(--neon);
+font-weight: bold;
+height:2em;
+padding-top:5px;
+}
+
+.sucess{
+padding-top:5px;
+height:2em;
+visibility: hidden;
+}
+
+
+
+

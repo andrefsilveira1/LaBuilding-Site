@@ -10,7 +10,7 @@ return(
     {SliderImages.map((slide, index) => {
     return (
     <div className='slide'>
-        <img src={slide.src} alt={slide.nome}/>
+        <img src={slide.src} alt={slide.nome} key={index}/>
     </div>
     )
     })}
@@ -20,7 +20,7 @@ return(
     {SliderImages.map((slide, index) => {
     return (
     <div className='slide'>
-        <img src={slide.src} alt={slide.nome}/> 
+        <img src={slide.src} alt={slide.nome} key={index}/> 
     </div>
     )
     })}

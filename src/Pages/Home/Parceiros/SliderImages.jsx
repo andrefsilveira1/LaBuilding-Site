@@ -2,9 +2,9 @@
 import ECT from '../../../images/logo-ect-250x200.png';
 import EJECT from '../../../images/logo-eject-250x200.png';
 import SeaHub from '../../../images/logo-seahub-250x200.png';
-import UFRN from '../../../images/logo-ufrn-250x200.png'
-import Venx from '../../../images/logo-venx-250x200.png'
-import Elementos from '../../../images/logo-elementos-250x200.png'
+import UFRN from '../../../images/logo-ufrn-250x200.png';
+import Venx from '../../../images/logo-venx-250x200.png';
+import Elementos from '../../../images/logo-elementos-250x200.png';
 
 /*
     1) Instituições privadas vem ANTES da logo da UFRN, enquanto 'submarcas' dela como a eject vem DEPOIS;
